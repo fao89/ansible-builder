@@ -16,7 +16,7 @@ build_arg_defaults = {
     # empty string values here still allow the build arg to be emitted into the generated Containerfile
     'ANSIBLE_GALAXY_CLI_COLLECTION_OPTS': '',
     'ANSIBLE_GALAXY_CLI_ROLE_OPTS': '',
-    'EE_BASE_IMAGE': 'quay.io/ansible/ansible-runner:latest',
+    'EE_BASE_IMAGE': 'ghcr.io/ansible/community-ansible-dev-tools:latest',
     # this value is removed elsewhere for v3+ schemas
     'EE_BUILDER_IMAGE': 'quay.io/ansible/ansible-builder:latest',
     'PKGMGR_PRESERVE_CACHE': '',
